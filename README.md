@@ -1,5 +1,45 @@
-# bootzoe
+# 🌐 BootZoe
 
-Bot de Twitter que publica la cotización de la criptomoneda $ZOE (se puede modificar por otra criptomoneda en caso de ser necesario)
+Este script en Python publica automáticamente en Twitter la cotización actual de una la criptomoneda **ZOE**, utilizando los datos obtenidos desde la API de CoinMarketCap. Es útil para realizar un seguimiento automatizado del valor de ZOE y compartirlo públicamente.
 
-Usando tweepy (https://www.tweepy.org/) una libreria de twitter para python, podemos levantar datos de https://coinmarketcap.com/ con la libreria coinmarketcap (https://coinmarketcap.com/api/documentation/v1/) y de esta forma publicar el valor de cualquier criptomoneda que este listada en el sitio, a modo de ejemplo yo use $ZOE
+## 📌 Características
+
+- Conexión a la API de CoinMarketCap para obtener información actualizada sobre criptomonedas.
+- Filtra y obtiene la cotización de la criptomoneda con símbolo `ZOE`.
+- Publica automát icamente en una cuenta de Twitter con un mensaje predefinido que incluye fecha, hora, cotización y hashtags relevantes.
+
+## 🧰 Requisitos
+
+- Python 3.x
+- Cuenta de Twitter con acceso a la API de desarrollador
+- Claves de API de CoinMarketCap y Twitter
+
+## 💾 Librerías necesarias
+
+Puedes instalarlas con:
+
+```bash
+pip install requests tweepy
+```
+
+## ⚙️ Configuración
+Twitter API: reemplaza los siguientes valores en el script por tus claves reales:
+
+```bash
+API_KEY = 'TU API KEY'
+API_SECRET_KEY = 'TU API SECRET KEY'
+ACCESS_TOKEN = 'TU ACCESS TOKEN'
+ACCESS_TOKEN_SECRET = 'TU ACCESS TOKEN SECRET'
+
+CoinMarketCap API: ya viene con una clave de ejemplo (X-CMC_PRO_API_KEY), pero puedes cambiarla por tu propia clave obtenida desde CoinMarketCap Developer Portal.
+```
+
+## 🛠 Uso
+Ejecuta el script con:
+```bash
+python bootzoe.py
+```
+Esto publicará en tu cuenta de Twitter la cotización actual de ZOE.
+
+## ⚠️ Advertencia
+Este script incluye hashtags relacionados con un posible esquema Ponzi. Úsalo con responsabilidad, considerando el contexto y la legalidad de la información difundida.
