@@ -10,9 +10,9 @@ Este script en Python publica automáticamente en Twitter la cotización actual 
 
 ## 🧰 Requisitos
 
-- Python 3.x
-- Cuenta de Twitter con acceso a la API de desarrollador
-- Claves de API de CoinMarketCap y Twitter
+- [Python 3.x](https://www.python.org/downloads/)
+- [Cuenta de Twitter con acceso a la API de desarrollador](https://developer.x.com/en)
+- [Claves de API de CoinMarketCap y Twitter](https://coinmarketcap.com/)
 
 ## 💾 Librerías necesarias
 
