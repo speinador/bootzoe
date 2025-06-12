@@ -43,3 +43,19 @@ Esto publicará en tu cuenta de Twitter la cotización actual de ZOE.
 
 ## ⚠️ Advertencia
 Este script incluye hashtags relacionados con un posible esquema Ponzi. Úsalo con responsabilidad, considerando el contexto y la legalidad de la información difundida.
+
+---
+
+## 🧑‍🏫 Autor
+
+Explicación elaborada por [Sebastian Peinador](https://www.linkedin.com/in/sebastian-j-peinador/) para propósitos didácticos y de investigación en ciberseguridad ofensiva.
+
+---
+
+## 📄 Licencia
+
+Este material se distribuye bajo la licencia [MIT](LICENSE).
+
+---
+
+> Si te resulta útil, ¡no olvides darle ⭐ al repo o compartirlo!
